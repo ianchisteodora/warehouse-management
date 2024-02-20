@@ -40,7 +40,7 @@ public class ConnectionFactory {
 
     }
 
-    public Connection getConnection() {
+    public static Connection getConnection() {
 
         return singleInstance.createConnection();
 
